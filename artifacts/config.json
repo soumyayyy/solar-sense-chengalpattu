@@ -1,0 +1,30 @@
+{
+  "features": [
+    "T2M",
+    "T_RANGE",
+    "RH2M",
+    "WS2M",
+    "PRECTOTCORR",
+    "doy_sin",
+    "doy_cos"
+  ],
+  "target": "ALLSKY_SFC_SW_DWN",
+  "lat": 12.69,
+  "lon": 79.98,
+  "system_kwp": 5,
+  "performance_ratio": 0.75,
+  "emission_factor": 0.71,
+  "best_model": "SVR",
+  "train_end_year": 2022,
+  "sklearn_version": "1.6.1",
+  "svr_params": {
+    "svr__C": 10,
+    "svr__epsilon": 0.2,
+    "svr__gamma": 0.05
+  },
+  "rf_params": {
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "n_estimators": 400
+  }
+}

@@ -1,0 +1,5 @@
+Model,MAE,MSE,RMSE,R2
+Baseline (climatology),0.788,1.047,1.023,0.414
+Linear Regression,0.673,0.756,0.869,0.577
+SVR,0.56,0.583,0.764,0.673
+Random Forest,0.562,0.561,0.749,0.686
